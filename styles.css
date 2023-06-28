@@ -1,0 +1,306 @@
+/* Estilos generales */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #333;
+}
+
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header-list li {
+  margin: 0 10px;
+}
+
+.header-list li:first-child {
+  margin-right: auto;
+}
+
+/* Estilos para la navegación */
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Estilos para el contenido principal */
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+  text-align: center;
+  clear: both;
+}
+
+section h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+section p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+section .circle-img {
+  max-width: 50%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  border-radius: 60%;
+  overflow: hidden;
+}
+
+section .circle-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Estilos para el pie de página */
+footer {
+  background-color: #FA00D6;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 767px) {
+  header img {
+    max-width: 50%;
+    margin: 0 auto;
+  }
+
+  .header-list li {
+    margin: 0 5px;
+  }
+
+  section h1 {
+    font-size: 24px;
+  }
+
+  section p {
+    font-size: 16px;
+  }
+}
+
+.bn632-hover {
+  width: 160px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 55px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.bn632-hover:hover {
+  background-position: 100% 0;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.bn632-hover:focus {
+  outline: none;
+}
+
+.bn632-hover.bn24 {
+  background-image: linear-gradient(to right, #6253e1, #852d91, #a3a1ff, #f24645);
+  box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+}
+
+/* Estilos para tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+  section h1 {
+    font-size: 32px;
+  }
+
+  section p {
+    font-size: 20px;
+  }
+}
+
+/* Estilos para pantallas grandes */
+@media (min-width: 1024px) {
+  header h1 {
+    font-size: 30px;
+    margin-top: 1;
+    margin-left: 10px;
+  }
+
+  header img {
+    max-width: 200px;
+    margin: 0;
+  }
+
+  section h1 {
+    font-size: 40px;
+  }
+
+  section p {
+    font-size: 24px;
+  }
+
+  /* Estilos para los iconos de contacto en pantalla */
+  .header-list li.instagram {
+    margin: 0 10px;
+  }
+
+  .header-list li.mail {
+    margin: 0 10px;
+  }
+
+  .header-list li.linkedin {
+    margin: 0 10px;
+  }
+
+  .header-list {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .header-list li {
+    margin: 0 5px;
+  }
+}
+
+/* Estilos adicionales */
+.second-paragraph {
+  background-color: #F4E3FF;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+
+section .second-paragraph {
+  background-color: #f2e3f0;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+section .second-paragraph p {
+  font-size: 20px;
+  line-height: 1.0;
+  margin-bottom: 0;
+}
+
+.bn932-hover {
+  width: 160px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 55px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.bn932-hover:hover {
+  background-position: 100% 0;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.bn932-hover:focus {
+  outline: none;
+}
+
+.bn932-hover.bn24 {
+  background-image: linear-gradient(to right, #e6745e, #cc2e5c, #723dc6, #27c3f3);
+  box-shadow: 0 4px 15px 0 rgba(212, 38, 79, 0.75);
+}
+
+/* Estilos para el botón de alternar modo oscuro */
+.dark-mode-toggle,
+.dark-mode-toggle:focus {
+  width: 120px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  border: none;
+  border-radius: 50px;
+  background-color: #333;
+  transition: background-color 0.3s ease;
+}
+
+.dark-mode-toggle:focus {
+  outline: none;
+}
+
+.dark-mode-toggle:hover {
+  background-color: #555;
+}
+
